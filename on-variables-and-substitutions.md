@@ -12,14 +12,14 @@ I hope that the presentation would appeal in equal measure to students of mathem
 
 I try to make the talk interesting for students of maths and of computer science. 
 
-I also want to show you some category theory, an important area of mathematics that is of fundamental importantce, but not even taught at all universities. One of many reason why category theory is important is that it links up mathematics and computer science, and we can also add logic, even though it will not play a big role in this talk.
+I also want to show you some category theory, an important area of mathematics that is of fundamental importantce, but not even taught at all universities. One of many reason why category theory is important is that it links up mathematics and computer science, and we can also add logic and phsyics, even though that will not play a big role in this talk. 
 
 So let us start with a dictionary.
 
-mathematics| computer science | category theory | logic
------------|-------------|------------| ----
-set | data type | object | proposition 
-function | program | arrow | proof 
+mathematics| computer science | category theory | logic | physics
+-----------|-------------|------------| ---- |--
+set | data type | object | proposition | space
+function | program | arrow | proof | transformation
 
 ### Functions and Substitutions
 
