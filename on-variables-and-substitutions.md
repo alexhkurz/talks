@@ -8,14 +8,20 @@ Variables---and operations of substituting values for variables---play an import
 
 I hope that the presentation would appeal in equal measure to students of mathematics and of computer science.
 
+### Introduction
+
+I try to make the talk interesting for students of maths and of computer science. 
+
+I also want to show you some category theory, an important area of mathematics that is of fundamental importantce, but not even taught at all universities. One of many reason why category theory is important is that it links up mathematics and computer science, and we can also add logic, even though it will not play a big role in this talk.
+
+So let us start with a dictionary.
+
+mathematics| computer science | category theory | logic
+-----------|-------------|------------| ----
+set | data type | object | proposition 
+function | program | arrow | proof 
+
 ### Functions and Substitutions
-
-I try to make the talk interesting for students of maths and of computer science. So let us start with a dictionary.
-
-set theory | type theory | category theory
------------|-------------|----------------
-set | data type | object  
-function | program | arrow
 
 ### Categories 
 
