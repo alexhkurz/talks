@@ -13,7 +13,7 @@ I hope that the presentation would appeal in equal measure to students of mathem
 I try to make the talk interesting for students of maths and of computer science. So let us start with a dictionary.
 
 set theory | type theory | category theory
-------------------------------------------
+-----------|-------------|----------------
 set | data type | object  
 function | program | arrow
 
