@@ -8,7 +8,14 @@ Variables---and operations of substituting values for variables---play an import
 
 I hope that the presentation would appeal in equal measure to students of mathematics and of computer science.
 
-### Functions 
+### Functions and Substitutions
+
+I try to make the talk interesting for students of maths and of computer science. So let us start with a dictionary.
+
+set theory | type theory | category theory
+------------------------------------------
+set | data type | object  
+function | program | arrow
 
 ### Categories 
 
@@ -16,9 +23,7 @@ I hope that the presentation would appeal in equal measure to students of mathem
 
 ### String Diagrammatic Calculi of 2-Dimensional Algebra
 
-### Substitutions
-
-### A Graphical Calculus of Substitutions
+### A 2-Dimensional Calculus of Simultaneous Substitutions
 
 ### Summary and Outlook
 
