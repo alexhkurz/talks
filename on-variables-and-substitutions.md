@@ -1,16 +1,35 @@
 ## On Variables and Substitution
 
-### Functions (10min)
+(under construction)
 
-### Categories (10min)
+### Abstract
+
+Variables---and operations of substituting values for variables---play an important role in mathematics and computer science. Whenever we want to design programming languages or build tools such as compilers, a careful understanding of variables is necessary. The difficulties and subtleties that arise in a study of variables link up with two of the most beautiful mathematical theories that are currently under intense development, the theory of nominal sets and the theory of string diagrams, both of which are children of category theory. In this talk, I will give an overview of the area and briefly touch on some ongoing collaboration with Samuel Balco. 
+
+I hope that the presentation would appeal in equal measure to students of mathematics and of computer science.
+
+### Functions 
+
+### Categories 
 
 ### 2-Dimensional Algebra (aka monoidal categories)
 
-### The Graphical Calculi of 2-Dimensional Algebra
+### String Diagrammatic Calculi of 2-Dimensional Algebra
 
 ### Substitutions
 
 ### A Graphical Calculus of Substitutions
+
+### Summary and Outlook
+
+We have learned quite a bit about category theory and string diagrams
+
+### References
+
+
+
+---
+---
 
 A review on the relationship between functions and substitutions  ... why this is important ... an indication of why this is subtle 
 
