@@ -23,9 +23,11 @@ function | program | arrow | proof | transformation
 
 I will illustrate the nature of this landscape with a research question on which I have done worked recently. But the emphasis is on giving an example for the power of the dictionary above.
 
-### Preliminaries
+### Preliminaries: Substitution, Free and Bound Variables
 
 #### Substitution
+
+...
 
 #### Free and Bound Variables
 
@@ -39,20 +41,27 @@ A ***bound variable*** is a variable that can be renamed by a ***fresh variable*
 
     f(x) = x^2 + 2x + 1
     
-then x is a bound variable. Indeed
+then `x` is a bound variable. Indeed
 
     f(y) = y^2 + 2y + 1
     
-defines the same function.
+defines the same function. To run through the definitions, `y` is *fresh* in `f(x) = x^2 + 2x + 1` since `y` does not occur in `f(x) = x^2 + 2x + 1`. And if we substitute `x` by `y`, then the meaning of the expression does not change.
 
-**Example 2:**
+**Example 2:** A programming example ... tba ... 
 
 #### Substitution and Bound Variables
 
 In the presence of bound variables, we need to be careful with substitution.
 
+...
 
-### Categories 
+### The Research Question
+
+A calculus of substitutions that ...
+
+What is new? String diagrams ... enter category theory ...
+
+### Preliminaries: Categories 
 
 ### 2-Dimensional Algebra (aka monoidal categories)
 
