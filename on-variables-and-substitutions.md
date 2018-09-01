@@ -21,7 +21,36 @@ mathematics| computer science | category theory | logic | physics
 set | data type | object | proposition | space
 function | program | arrow | proof | transformation
 
-### Functions and Substitutions
+I will illustrate the nature of this landscape with a research question on which I have done worked recently. But the emphasis is on giving an example for the power of the dictionary above.
+
+### Preliminaries
+
+#### Substitution
+
+#### Free and Bound Variables
+
+The following definitions are not completely precise, but they can be made precise in all relevant circumstances known to me.
+
+A ***fresh variable*** is a variable that has not been used before.
+
+A ***bound variable*** is a variable that can be renamed by a ***fresh variable*** without changing its meaning.
+
+**Example 1:** If we define a function, for example
+
+    f(x) = x^2 + 2x + 1
+    
+then x is a bound variable. Indeed
+
+    f(y) = y^2 + 2y + 1
+    
+defines the same function.
+
+**Example 2:**
+
+#### Substitution and Bound Variables
+
+In the presence of bound variables, we need to be careful with substitution.
+
 
 ### Categories 
 
