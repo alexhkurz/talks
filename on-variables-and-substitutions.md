@@ -103,7 +103,7 @@ This example is a bit boring, at least at first sight. So why is category theory
   
   - Categories that have two or more ways of composing arrows (monoidal categories, double categories, higher categories)
   
-  - While it is the first item that is best known in the mathematical world, it is the other ones that are more interesting as topics of research inside category theory
+  While it is the first item that is best known in the mathematical world, it is the other ones that are more interesting as topics of research inside category theory
   
   
   
