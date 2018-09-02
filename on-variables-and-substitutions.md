@@ -93,20 +93,30 @@ This example is a bit boring, at least at first sight. So why is category theory
      - metric spaces
      - topological spaces
      - ...
-  - Categories where objects are sets (with extra structure or not) and arrows are not functions but, eg, relations
+     
+  - Categories where objects are data-types and arrows are programs (*type theory*)
+     
+  - Categories where objects are sets (with extra structure or not) and arrows are not functions but, say, relations
   
-  - Categories where objects are not sets, but, eg, themselves points in a space and, eg, the arrows are paths connecting the points
+  - Categories where objects are not sets, but themselves points in a space and the arrows are paths connecting the points
   
-  - Categories where the set of arrows *A(a,b)* is replaced by an object in another category (enriched category theory)
+  - Categories where the set of arrows *A(a,b)* is replaced by an object in another category (*enriched category theory*)
   
-  - Categories where the both the set of object and the set of arrows are replaced by objects in another category (internal category)
+  - Categories where the both the set of object and the set of arrows are replaced by objects in another category (*internal category theory*)
   
-  - Categories that have two or more ways of composing arrows (monoidal categories, double categories, higher categories)
+  - Categories that have two or more ways of composing arrows (*monoidal categories, double categories, higher categories*)
   
   While it is the first item that is best known in the mathematical world, it is the other ones that are more interesting as topics of research inside category theory
   
+- Category theory is the way to go if you want to think "up to isomorphism". (Example: The skeleton of a category.)
   
-  
+- Category theory can be understood as a set theory in which you dont use "is an element of" as the basic operation but "composition". This leads to a fantastic idea, namely *definition by universal property*. We have seen that there is a large variety of categories. If you make a definition by universal property, then it makes sense in all of these different examples. So category theory can be full of beautiful surprises where seemingly different constructions end up being instance of the same universal property. (Example: cartesian product.)
+
+- (Maybe that needs to be skipped for the talk as it would take to long and is not needed.) One of the most powerful notions of mathematics, comparable to the invention of the 0, is that of a *natural transformation*. It is the notion category theory was created for and plays a central role in the [first paper on the subject](https://ncatlab.org/nlab/show/General+Theory+of+Natural+Equivalences). I will just explain the main idea. In mathematics, early on, you encounter indexed numbers, such as x_i where i runs over an infinite set as eg in Taylor series. Later, one also needs indexed functions fi. A natural transformation generalises such families in the case where the indices are not a mere set but also a category. This happens all the time in mathematics and I give you just one example. We said that there is a category where objects are data types and arrows are programs. But some data types can be indexed, for example the type List(X) of lists over a set X, where the elements of set X are the elements you can put in the lists. Now functions 
+
+        f_X: List(X) -> List(X)
+
+from lists to lists are also indexed by X. So which families of indexed functions are natural in this example? The natural transformations are what is called in programming the *polymorphic functions*, that is, the functions that have the same definitions for all X, or, the programs that would run correctly whatever X is. 
 
 
 
