@@ -63,6 +63,25 @@ What is new? String diagrams ... enter category theory ...
 
 ### Preliminaries: Categories 
 
+One of the many ways of looking at category theory is as a theory of compositionality. This is important to programming and software engineering as we need to build big systems from small systems we understand in a compositional way. "Compositional" here refers to being able to deduce properties of the big system from known properties of the smaller components.
+
+Category theory has to say a lot about compositionality in many different ways.
+
+To start with, a category is a mathematical structure that has "arrows" and composition of arrows.
+
+**Def:** A category *A* consists of a set of objects, also denoted by *A*, and for any two objects *a,b* a set of arrows *A(a,b)*. There are special arrows *id_a*, called identiy arrows or identities, for all *a* in *A* and for any *f* in *A(a,b)* and *g* in *A(b,c)* there is an arrow *f;g*, called the composition of *f* and *g*. This data is required to satisfy tha laws of identity and associativity.
+
+To express that *f* is an element of *A(a,b)*, we also write *f:a\to b* and call *a* the domain or source of *f* and *b* the codomain or target. The composition *f;g* is also written as *gf*.
+
+**Example:** 
+- Let **Set** be the category that has sets as objects and all functions as arrows.
+- Given a countably infinite set **N**, the category *Fin* ...
+- The category **Card** consists of finite cardinals.
+
+One should check that this is indeed a category.
+
+
+
 ### 2-Dimensional Algebra (aka monoidal categories)
 
 ### String Diagrammatic Calculi of 2-Dimensional Algebra
