@@ -75,10 +75,38 @@ To express that *f* is an element of *A(a,b)*, we also write <a href="https://ww
 
 **Example:** 
 - Let **Set** be the category that has sets as objects and all functions as arrows.
-- Given a countably infinite set **N**, the category *Fin* ...
+- Given a countably infinite set **N**, the category **Fin** ...
 - The category **Card** consists of finite cardinals.
 
-One should check that this is indeed a category.
+One should check that this is indeed a category. But we know that we can compose functions and that there is an idenity function.
+
+This example is a bit boring, at least at first sight. So why is category theory interesting? 
+
+- Going back to our dictionary, there are many categories that are very different from **Set**. 
+   - Categories where objects are sets, but with extra structure and arrows are functions that preservere that structure. For example, there are categories of (aks the audience what structures they came across)
+     - graphs
+     - groups
+     - commutative groups
+     - monoids
+     - ordered sets
+     - vector spaces
+     - metric spaces
+     - topological spaces
+     - ...
+  - Categories where objects are sets (with extra structure or not) and arrows are not functions but, eg, relations
+  
+  - Categories where objects are not sets, but, eg, themselves points in a space and, eg, the arrows are paths connecting the points
+  
+  - Categories where the set of arrows *A(a,b)* is replaced by an object in another category (enriched category theory)
+  
+  - Categories where the both the set of object and the set of arrows are replaced by objects in another category (internal category)
+  
+  - Categories that have two or more ways of composing arrows (monoidal categories, double categories, higher categories)
+  
+  - While it is the first item that is best known in the mathematical world, it is the other ones that are more interesting as topics of research inside category theory
+  
+  
+  
 
 
 
