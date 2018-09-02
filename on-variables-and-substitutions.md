@@ -116,7 +116,7 @@ This example is a bit boring, at least at first sight. So why is category theory
 
         f_X: List(X) -> List(X)
 
-from lists to lists are also indexed by X. So which families of indexed functions are natural in this example? The natural transformations are what is called in programming the *polymorphic functions*, that is, the functions that have the same definitions for all X, or, the programs that would run correctly whatever X is. 
+from lists to lists are also indexed by X. So which families of indexed functions are natural in this example? The natural transformations are what is called in programming the *polymorphic functions*, that is, the functions that have the same definitions for all X, or, the programs that would run correctly whatever X is.  
 
 
 
