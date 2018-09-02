@@ -69,7 +69,7 @@ Category theory has to say a lot about compositionality in many different ways.
 
 To start with, a category is a mathematical structure that has "arrows" and composition of arrows.
 
-**Def:** A category *A* consists of a set of objects, also denoted by *A*, and for any two objects *a,b* a set of arrows *A(a,b)*. There are special arrows *id_a*, called identiy arrows or identities, for all *a* in *A* and for any *f* in *A(a,b)* and *g* in *A(b,c)* there is an arrow *f;g*, called the composition of *f* and *g*. This data is required to satisfy tha laws of identity and associativity.
+**Def:** A category **A** consists of a set of objects, also denoted by **A**, and for any two objects *A,B* a set of arrows **A** *(a,b)*. There are special arrows *id_a*, called identiy arrows or identities, for all *a* in *A* and for any *f* in *A(a,b)* and *g* in *A(b,c)* there is an arrow *f;g*, called the composition of *f* and *g*. This data is required to satisfy tha laws of identity and associativity.
 
 To express that *f* is an element of *A(a,b)*, we also write <a href="https://www.codecogs.com/eqnedit.php?latex=f:a\to&space;b" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f:a\to&space;b" title="f:a\to b" /></a> and call *a* the domain or source of *f* and *b* the codomain or target. The composition *f;g* is also written as *gf*.
 
@@ -112,15 +112,15 @@ This example is a bit boring, at least at first sight. So why is category theory
   
 - Category theory can be understood as a set theory in which you dont use "is an element of" as the basic operation but "composition". This leads to a fantastic idea, namely *definition by universal property*. We have seen that there is a large variety of categories. If you make a definition by "is an element of" then you have to adapt the definition for each category and, by the way, it only works in case your category is of the "objects are sets plus structure" variety. If you make a definition by universal property, then it makes sense in all of these different examples. So category theory can be full of beautiful surprises where seemingly different constructions end up being instance of the same universal property. (Example: cartesian product.)
 
-- (Maybe that needs to be skipped for the talk as it would take to long and is not needed.) One of the most powerful notions of mathematics, comparable to the invention of the 0, is that of a *natural transformation*. It is the notion category theory was created for and plays a central role in the [first paper on the subject](https://ncatlab.org/nlab/show/General+Theory+of+Natural+Equivalences). I will just explain the main idea. In mathematics, early on, you encounter indexed numbers, such as x_i where i runs over an infinite set as eg in Taylor series. Later, one also needs indexed functions fi. A natural transformation generalises such families in the case where the indices are not a mere set but also a category. This happens all the time in mathematics and I give you just one example. We said that there is a category where objects are data types and arrows are programs. But some data types can be indexed, for example the type List(X) of lists over a set X, where the elements of set X are the elements you can put in the lists. Now functions 
+- (Maybe that needs to be skipped for the talk as it would take to long and is not needed.) One of the most powerful notions of mathematics, comparable to the invention of the 0, is that of a *natural transformation*. It is the notion category theory was created for and plays a central role in the [first paper on the subject](https://ncatlab.org/nlab/show/General+Theory+of+Natural+Equivalences). I will just explain the main idea. In mathematics, early on, you encounter indexed numbers, such as x_i where i runs over an infinite set as eg in Taylor series. Later, one also needs indexed functions f_i. A natural transformation generalises such a family of functions in the case where the indices are not a mere set but a category. This happens all the time in mathematics and I give you just one example. We said that there is a category where objects are data types and arrows are programs. But some data types can be indexed, for example the type List(X) of lists over a set X: The elements of X are the elements you can put in the lists. Now functions 
 
         f_X: List(X) -> List(X)
 
-from lists to lists are also indexed by X. So which families of indexed functions are natural in this example? The natural transformations are what is called in programming the *polymorphic functions*, that is, the functions that have the same definitions for all X, or, the programs that would run correctly whatever X is.  
-
-
+from lists to lists are also indexed by X. So which families f_X of indexed functions are natural in this example? The natural transformations are what is called in programming the *polymorphic functions*, that is, the functions that have the same definitions for all X, or, the programs that would run correctly whatever X is. For example, reversing a list is polymorphic (natural), but sorting a list of numbers is not. (Question: For which data type would sorting be polymorphic?)
 
 ### 2-Dimensional Algebra (aka monoidal categories)
+
+A ***monoidal category*** is a category in which we have a second composition on objects and arrows which we write as 
 
 ### String Diagrammatic Calculi of 2-Dimensional Algebra
 
