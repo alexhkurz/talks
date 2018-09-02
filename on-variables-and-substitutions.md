@@ -118,11 +118,13 @@ This example is a bit boring, at least at first sight. So why is category theory
 
 from lists to lists are also indexed by X. So which families f_X of indexed functions are natural in this example? The natural transformations are what is called in programming the *polymorphic functions*, that is, the functions that have the same definitions for all X, or, the programs that would run correctly whatever X is. For example, reversing a list is polymorphic (natural), but sorting a list of numbers is not. (Question: For which data type would sorting be polymorphic?)
 
-### 2-Dimensional Algebra (aka monoidal categories)
+### Monoidal Categories and String Diagrams
 
-A ***monoidal category*** is a category in which we have a second composition on objects and arrows which we write as 
+Some comments on 2-Dimensional Algebra ...
 
-### String Diagrammatic Calculi of 2-Dimensional Algebra
+A ***monoidal category*** is a category in which we have a second composition on objects and arrows which we write as ... and which satisfies the interchange law ... 
+
+
 
 ### A 2-Dimensional Calculus of Simultaneous Substitutions
 
