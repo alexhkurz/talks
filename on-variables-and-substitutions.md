@@ -71,7 +71,7 @@ To start with, a category is a mathematical structure that has "arrows" and comp
 
 **Def:** A category *A* consists of a set of objects, also denoted by *A*, and for any two objects *a,b* a set of arrows *A(a,b)*. There are special arrows *id_a*, called identiy arrows or identities, for all *a* in *A* and for any *f* in *A(a,b)* and *g* in *A(b,c)* there is an arrow *f;g*, called the composition of *f* and *g*. This data is required to satisfy tha laws of identity and associativity.
 
-To express that *f* is an element of *A(a,b)*, we also write *f:a\to b* and call *a* the domain or source of *f* and *b* the codomain or target. The composition *f;g* is also written as *gf*.
+To express that *f* is an element of *A(a,b)*, we also write <a href="https://www.codecogs.com/eqnedit.php?latex=f:a\to&space;b" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f:a\to&space;b" title="f:a\to b" /></a> and call *a* the domain or source of *f* and *b* the codomain or target. The composition *f;g* is also written as *gf*.
 
 **Example:** 
 - Let **Set** be the category that has sets as objects and all functions as arrows.
